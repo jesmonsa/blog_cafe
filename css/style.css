@@ -95,3 +95,24 @@ img {
     font-weight: bold;
 }
 
+/** Navegación **/
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+
+
+.navegacion {
+    
+}
+
