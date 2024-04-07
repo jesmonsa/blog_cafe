@@ -72,3 +72,10 @@ img {
 .centrar-texto {
     text-align: center;
 }
+
+/* Header */
+
+.header {
+    background-image: url(../img/banner.jpg);
+    
+}
