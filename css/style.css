@@ -76,6 +76,13 @@ img {
 }
 
 @media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+
+
+@media (min-width: 768px) {
     .barra {
         display: flex;
         justify-content: space-between;
@@ -103,6 +110,7 @@ img {
         gap: 2rem;
     
 }
+
 .navegacion__enlace {
     display: block;
     text-align: center;
@@ -112,7 +120,4 @@ img {
 
 
 
-.navegacion {
-    
-}
 
