@@ -108,7 +108,7 @@ img {
     .navegacion {
         display: flex;
         gap: 2rem;
-    
+    }
 }
 
 .navegacion__enlace {
@@ -117,4 +117,3 @@ img {
     font-size: 1.8rem;
     color: var(--blanco);
 }
-
