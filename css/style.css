@@ -6,6 +6,8 @@
     --gris: #e1e1e1;
     --blanco: #ffffff;
     --negro: #000000;
+    --gris: #e1e1e1;
+
 }
 html {
     box-sizing: border-box;
@@ -127,4 +129,23 @@ img {
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
+}
+
+.entrada {
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton {
+    display: block;
+    
+}
+
+.boton--primario {
+    background-color: var(--negro);
 }
