@@ -143,6 +143,11 @@ img {
 
 .boton {
     display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
     
 }
 
