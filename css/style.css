@@ -164,3 +164,11 @@ img {
 .boton--primario {
     background-color: var(--negro);
 }
+
+.boton--secundario {
+    background-color: var(--primario);
+}
+
+.cursos {
+    
+}
