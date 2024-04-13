@@ -83,6 +83,9 @@ img {
     }
 }
 
+.barra {
+    padding: 3rem;
+}
 
 @media (min-width: 768px) {
     .barra {
@@ -199,5 +202,6 @@ img {
 
 .footer {
     background-color: var(--negro);
-    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
 }
