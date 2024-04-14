@@ -205,3 +205,33 @@ img {
     padding-bottom: 3rem;
     margin-top: 3rem;
 }
+
+/* Nobre nosotros */
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        /* gap: 2rem; */
+        justify-content: space-between;
+    }
+
+    .sobre-nosotros__texto {
+        flex: 0 0 calc(50% - 1rem);
+        
+    }
+
+    .sobre-nosotros__imagen {
+        flex: 0 0 calc(50% - 1rem);
+        
+    }
+   
+    /* Grid el mas recomendado y facil de utilizar  */
+
+    /* .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+
+    } */
+} 
+
